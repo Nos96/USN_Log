@@ -70,6 +70,7 @@ export const Editor: React.FC = () => {
             <option value="fenrir">Fenrir</option>
             <option value="tyr">Tyr</option>
             <option value="freyr">Freyr</option>
+            <option value="titan">Titan</option>
           </select>
         </div>
 
