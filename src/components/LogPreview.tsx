@@ -23,7 +23,7 @@ export const LogPreview: React.FC = () => {
 
   const shipLogos: Record<string, string> = {
     valhalla: "/USN_Log/ships/valhalla.png",
-    fenrir: "", // todo: add fenrir logo
+    bestla: "/USN_Log/ships/bestla.png",
     tyr: "/USN_Log/ships/tyr.png",
     freyr: "/USN_Log/ships/freyr.png",
     titan: "/USN_Log/ships/titan.png",

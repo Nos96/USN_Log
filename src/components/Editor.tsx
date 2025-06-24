@@ -67,7 +67,7 @@ export const Editor: React.FC = () => {
             className="w-full p-2 bg-[#3a3a3a] rounded border border-gray-600 text-white"
           >
             <option value="valhalla">Valhalla</option>
-            <option value="fenrir">Fenrir</option>
+            <option value="bestla">Bestla</option>
             <option value="tyr">Tyr</option>
             <option value="freyr">Freyr</option>
             <option value="titan">Titan</option>
