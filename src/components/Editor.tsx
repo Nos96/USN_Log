@@ -77,9 +77,8 @@ export const Editor: React.FC = () => {
             onChange={(e) => setSelectedShip(e.target.value as ShipType)}
             className="w-full p-2 bg-[#3a3a3a] rounded border border-gray-600 text-white"
           >
-            <option value="valhalla">Valhalla</option>
+            <option value="berserker">Berserker</option>
             <option value="bestla">Bestla</option>
-            <option value="tyr">Tyr</option>
             <option value="freyr">Freyr</option>
             <option value="titan">Titan</option>
           </select>
