@@ -65,12 +65,12 @@ export const Editor: React.FC = () => {
           </div>
 
         <div>
-          <label
+            <label
             htmlFor="ship-select"
             className="block text-sm font-medium mb-2"
-          >
+            >
             Select Ship
-          </label>
+            </label>
           <select
             id="ship-select"
             value={selectedShip}

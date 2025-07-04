@@ -20,7 +20,7 @@ export const LogPreview: React.FC = () => {
     bodyFont,
     formatList,
   } = useLog();
-
+  // "valhalla.png" is referenced as the fallback ship logo if the selected ship's logo fails to load.
   const shipLogos: Record<string, string> = {
     berserker: "/USN_Log/ships/berserker.png",
     bestla: "/USN_Log/ships/bestla.png",
@@ -49,7 +49,7 @@ export const LogPreview: React.FC = () => {
         <img
           src={shipLogos[selectedShip]}
           onError={(e) => {
-            e.currentTarget.src = "/USN_Log/ships/valhalla.png";
+            e.currentTarget.src = "/USN_Log/ships/berserker.png";
           }}
           alt="Ship Logo"
           crossOrigin="anonymous"
