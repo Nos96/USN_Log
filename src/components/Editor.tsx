@@ -80,7 +80,7 @@ export const Editor: React.FC = () => {
             <option value="berserker">Berserker</option>
             <option value="bestla">Bestla</option>
             <option value="freyr">Freyr</option>
-            <option value="gjallarhorn">gjallarhorn</option>
+            <option value="gjallarhorn">Gjallarhorn</option>
           </select>
         </div>
 
