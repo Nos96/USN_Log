@@ -26,6 +26,7 @@ export const LogPreview: React.FC = () => {
     bestla: "/USN_Log/ships/bestla.png",
     freyr: "/USN_Log/ships/freyr.png",
     gjallarhorn: "/USN_Log/ships/gjallarhorn.png",
+    ragnarok: "/USN_Log/ships/ragnarok.png",
   };
 
   const renderPage = (pageText: string, idx: number, isVisible: boolean) => {

@@ -81,6 +81,7 @@ export const Editor: React.FC = () => {
             <option value="bestla">Bestla</option>
             <option value="freyr">Freyr</option>
             <option value="gjallarhorn">Gjallarhorn</option>
+            <option value="ragnarok">Ragnarok</option>
           </select>
         </div>
 
